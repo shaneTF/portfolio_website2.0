@@ -4,13 +4,14 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <div className="flex flex-col w-full h-10 place-items-center justify-items-center">
+        <h2 className="text-xl">About Me</h2>
+      </div>
 
       <div>
-        <div>
-          <div>
-            <article>
+        <div className="justify-center">
+          <div className="grid grid-cols-2 gap-8 w-full h-56 justify-center p-5">
+            <article className="flex flex-col justify-self-end items-center p-5 gap-4 border-2 border-transparent rounded-2xl bg-blue-900">
               <BsPersonWorkspace />
               <h5>Experience</h5>
               <small>4+ Years Working</small>
