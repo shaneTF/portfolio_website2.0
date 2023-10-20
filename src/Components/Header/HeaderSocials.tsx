@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
-    <div className="flex flex-col items-center absolute gap-[0.8rem]">
+    <div className="flex w-full justify-center gap-[0.8rem]">
       <a href="https://www.linkedin.com/in/shane-franklin/" target="_blank">
         <BsLinkedin />
       </a>

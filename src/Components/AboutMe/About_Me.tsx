@@ -21,7 +21,6 @@ const About = () => {
               <AiOutlineFundProjectionScreen />
               <h5>Projects</h5>
               <small>2 Official Projects</small>
-              <br></br>
               <small>2 Unofficial Project</small>
             </article>
           </div>
@@ -41,7 +40,12 @@ const About = () => {
               traction.
             </p>
 
-            <a href="#contact">Contact Me!</a>
+            <a
+              className="h-8 w-28 border-2 text-center border-transparent bg-blue-600 rounded-3xl mt-8"
+              href="#contact"
+            >
+              Contact Me!
+            </a>
           </div>
         </div>
       </div>
